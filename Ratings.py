@@ -1,3 +1,5 @@
+#maitaining a dictionary of every dish and all its ratings
+#the value of c depends on the stimuli recieved from the front end based on users choice that determines which part of code is activiated
 rating={};
 c=(int)(input());
 while(1):
