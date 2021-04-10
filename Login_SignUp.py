@@ -1,3 +1,4 @@
+#the value of c depends on the stimuli recieved from the front end based on users choice that determines which part of code is activiated
 import re
 email=[];
 uname=[];
