@@ -1,3 +1,4 @@
+
 #maitaining a dictionary of every dish and all its ratings
 #the value of c depends on the stimuli recieved from the front end based on users choice that determines which part of code is activiated
 rating={};
@@ -30,12 +31,12 @@ while(1):
             for i in rating[s]:
                 sum+=i;
             sum=sum/len(rating[s])
-            print("Average Rating:\t"+sum)
+            print("Average Rating:\t"+str(sum))
     elif c==3:                                    #To Display all ratings
         for i in rating.keys():
             print("\n"+i+":-->")
             for j in rating[i]:
-                print(j+"\t")
+                print(str(j)+"\t")
     elif c==4:                                    #To delete all ratings
        print("All Ratings Cleared")
        rating.clear()
@@ -44,3 +45,4 @@ while(1):
         break;
         #exit to home screen
     c=(int)(input())
+
