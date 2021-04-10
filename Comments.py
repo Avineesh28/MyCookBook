@@ -1,3 +1,5 @@
+#maitaining a dictionary named review to store all the reviews regarding each dish
+#the value of c depends on the stimuli recieved from the front end based on users choice that determines which part of code is activiated
 review={};
 c=(int)(input());
 while(1):
