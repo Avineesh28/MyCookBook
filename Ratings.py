@@ -8,7 +8,7 @@ while(1):
             print("Invalid Rating")
             continue
         f=0
-        for i in review.keys():
+        for i in rating.keys():
            if i==s:
                f+=1
         if f==0:
@@ -30,9 +30,9 @@ while(1):
             sum=sum/len(rating[s])
             print("Average Rating:\t"+sum)
     elif c==3:                                    #To Display all ratings
-        for i in review.keys():
+        for i in rating.keys():
             print("\n"+i+":-->")
-            for j in review[i]:
+            for j in rating[i]:
                 print(j+"\t")
     elif c==4:                                    #To delete all ratings
        print("All Ratings Cleared")
