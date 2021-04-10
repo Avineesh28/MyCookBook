@@ -1,0 +1,121 @@
+body {
+  background-color: #ffeaed;
+  font-family: Trebuchet MS;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.signupform {
+  position: absolute;
+  width: 543.93px;
+  height: 531.88px;
+  left: 398px;
+  top: 113px;
+  z-index: 100px;
+  background: #ffffff;
+  box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 45px;
+}
+.back {
+  position: absolute;
+  width: 543.93px;
+  height: 531.88px;
+  left: 423.07px;
+  top: 145.12px;
+  z-index: 0px;
+  background: #e12e4b;
+  border-radius: 35px;
+}
+.c1 {
+  position: absolute;
+  width: 407px;
+  height: 27px;
+  left: 66px;
+  top: 95px;
+
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+}
+.header {
+  position: absolute;
+  width: 189px;
+  height: 59px;
+  left: 172px;
+  top: 41px;
+
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #e12e4b;
+}
+.input-box1 {
+  position: absolute;
+  width: 410px;
+  height: 48px;
+  left: 70px;
+  top: 142px;
+
+  background: #ffeaed;
+}
+.input-box2 {
+  position: absolute;
+  width: 410px;
+  height: 48px;
+  left: 70px;
+  top: 216px;
+
+  background: #ffeaed;
+}
+.input-box3 {
+  position: absolute;
+  width: 410px;
+  height: 48px;
+  left: 70px;
+  top: 293px;
+
+  background: #ffeaed;
+}
+.input-box4 {
+  position: absolute;
+  width: 410px;
+  height: 48px;
+  left: 70px;
+  top: 367px;
+
+  background: #ffeaed;
+}
+
+button {
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 10px 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.signup-btn {
+  background-color: #e12e4b;
+  position: absolute;
+  width: 183px;
+  height: 48px;
+  left: 175px;
+  top: 423px;
+}
+a {
+  text-decoration: none;
+  color: #e12e4b;
+}

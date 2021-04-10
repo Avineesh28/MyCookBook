@@ -1,0 +1,352 @@
+body {
+  background-color: #ffeaed;
+}
+/* Nav 1 */
+.nav-container-1 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: -1px;
+
+  background: #5bbdc8;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+}
+.nav-items-1 li {
+  list-style: none;
+  margin-right: 100px;
+}
+.nav-items-1 li:nth-last-of-type(1) {
+  margin-right: zero;
+}
+.nav-btn-container {
+  position: absolute;
+  left: 75.38%;
+  right: 17.85%;
+  top: 20.96%;
+  bottom: 97.04%;
+
+  background: #007582;
+}
+.searchbar {
+  position: absolute;
+  height: 25px;
+  width: 500px;
+  left: 39.38%;
+  right: 17.85%;
+  top: 45.96%;
+  bottom: 57.04%;
+}
+.loginbutton {
+  position: absolute;
+  width: 114px;
+  height: 52px;
+  left: 1308px;
+  top: 27px;
+
+  background: #007582;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: absolute;
+  width: 113px;
+  height: 54px;
+  left: 1322px;
+  top: 29px;
+
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #5bbdc8;
+}
+/* Nav 2 */
+.nav-container-2 {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  top: 99px;
+
+  background: #e12e4b;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.random1 {
+  margin-left: 70px;
+}
+nav ul li {
+  list-style: none;
+}
+.nav-items-2 {
+  text-decoration: none;
+}
+/* nav 3 */
+.drinks {
+  position: absolute;
+  width: 172px;
+  height: 53px;
+  left: 78px;
+  top: 162px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #740012;
+}
+.snacks {
+  position: absolute;
+  width: 172px;
+  height: 53px;
+  left: 253px;
+  top: 162px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #740012;
+}
+.break {
+  position: absolute;
+  width: 172px;
+  height: 53px;
+  left: 428px;
+  top: 162px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #740012;
+}
+.dish {
+  position: absolute;
+  width: 172px;
+  height: 53px;
+  left: 620px;
+  top: 162px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #740012;
+}
+.des {
+  position: absolute;
+  width: 172px;
+  height: 53px;
+  left: 811px;
+  top: 161px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #740012;
+}
+.ROTD {
+  position: absolute;
+  width: 279px;
+  height: 86px;
+  left: 1137px;
+  top: 156px;
+
+  background: #e12e4b;
+  border-radius: 10px;
+  position: absolute;
+  width: 268px;
+  height: 51px;
+  left: 1143px;
+  top: 161px;
+
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #740012;
+}
+/* End of nav, start pics */
+.HP1 {
+  position: absolute;
+  width: 766px;
+  height: 411px;
+  left: 67px;
+  top: 266px;
+
+  background: url(apple pie.jpg);
+  mix-blend-mode: normal;
+  box-shadow: 20px 20px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.HP2 {
+  position: absolute;
+  width: 513px;
+  height: 342px;
+  left: 875px;
+  top: 300px;
+
+  background: url(khandvi.jpg);
+  box-shadow: 20px 20px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.HP3 {
+  position: absolute;
+  width: 538px;
+  height: 657px;
+  left: 70px;
+  top: 740px;
+
+  background: url(Rava dosa.jpg);
+  box-shadow: 20px 20px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.HP4 {
+  position: absolute;
+  width: 724px;
+  height: 395px;
+  left: 649px;
+  top: 737px;
+
+  background: url(cheese omlete.jpg);
+  box-shadow: 20px 20px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.HP5 {
+  position: absolute;
+  width: 700px;
+  height: 328px;
+  left: 673px;
+  top: 1189px;
+
+  background: url(spring rolls.jpg);
+  box-shadow: 20px 20px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.HP6 {
+  position: absolute;
+  width: 539px;
+  height: 399px;
+  left: 46px;
+  top: 1500px;
+
+  background: url(potato bites.jpg);
+  box-shadow: 20px 20px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.HP7 {
+  position: absolute;
+  width: 707px;
+  height: 393px;
+  left: 643px;
+  top: 1582px;
+
+  background: url(dalgona.jpg);
+  box-shadow: 20px 20px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.about {
+  position: absolute;
+  width: 100%;
+  height: 406px;
+  left: 0px;
+  top: 2094px;
+
+  background: #e12e4b;
+}
+.AB1 {
+  position: absolute;
+  width: 437px;
+  height: 335px;
+  left: 702px;
+  top: 50px;
+
+  background: url(undraw_content_team_3epn);
+}
+.About-Us-Text {
+  position: absolute;
+  width: 390px;
+  height: 321px;
+  left: 45px;
+  top: 45px;
+
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+
+  color: #000000;
+}
+.heading {
+  position: absolute;
+  width: 207px;
+  height: 57px;
+  left: 100px;
+  top: 0px;
+
+  font-family: Sunflower;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+
+  color: #ffeaed;
+}
+.contact {
+  position: absolute;
+  width: 100%;
+  height: 300px;
+  left: 0px;
+  top: 2500px;
+
+  background: #740012;
+}
+.contactustext {
+  position: absolute;
+  width: 571px;
+  height: 146px;
+  left: 45px;
+  top: 45px;
+
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+
+  color: #e12e4b;
+}
+.heading-1 {
+  position: absolute;
+  width: 207px;
+  height: 57px;
+  left: 100px;
+  top: 0px;
+
+  font-family: Sunflower;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+
+  color: #ffeaed;
+}

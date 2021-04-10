@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffeaed;
+  background-size: cover;
+  background-position: center;
+  font-family: sans-serif;
+  align-items: center;
+}
+* {
+  margin: opx;
+  padding: opx;
+}
+body {
+  font-family: Trebuchet MS;
+}
+.back {
+  position: absolute;
+  width: 434px;
+  height: 481px;
+  left: 476px;
+  top: 125px;
+
+  background: #e12e4b;
+  border-radius: 35px;
+}
+.loginbox {
+  position: absolute;
+  width: 434px;
+  height: 481px;
+  left: 456px;
+  top: 105px;
+
+  background: #ffffff;
+  box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 45px;
+}
+.mini-logo {
+  position: absolute;
+  width: 88px;
+  height: 78px;
+  left: 165px;
+  top: 15px;
+
+  background: url(logo2.png);
+  border-radius: 58px;
+}
+.h2 {
+  position: absolute;
+  width: 295px;
+  height: 47px;
+  left: 60px;
+  top: 65px;
+
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+
+  color: #e12e4b;
+}
+.p1 {
+  position: absolute;
+  width: 311px;
+  height: 24px;
+  left: 55px;
+  top: 130px;
+
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+}
+.input-box1 {
+  position: absolute;
+  width: 386px;
+  height: 42px;
+  left: 20px;
+  top: 185px;
+
+  background: #ffeaed;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.input-box2 {
+  position: absolute;
+  width: 386px;
+  height: 42px;
+  left: 20px;
+  top: 240px;
+
+  background: #ffeaed;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.p2 {
+  position: absolute;
+  width: 182px;
+  height: 24px;
+  left: 200px;
+  top: 280px;
+
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: right;
+
+  color: #000000;
+}
+.button {
+  position: absolute;
+  width: 183px;
+  height: 48px;
+  left: 120px;
+  top: 325px;
+
+  background: #e12e4b;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+.p3 {
+  position: absolute;
+  width: 311px;
+  height: 24px;
+  left: 30px;
+  top: 375px;
+
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+}
+.a1 {
+  position: absolute;
+  width: 311px;
+  height: 24px;
+  left: 150px;
+  top: 390px;
+
+  font-family: Trebuchet MS;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+
+  color: #000000;
+}

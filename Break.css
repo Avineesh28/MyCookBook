@@ -1,0 +1,263 @@
+body {
+  background-color: #ffeaed;
+}
+/* Nav 1 */
+.nav-container-1 {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  top: -1px;
+
+  background: #5bbdc8;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+}
+.nav-items-1 li {
+  list-style: none;
+  margin-right: 100px;
+}
+.nav-items-1 li:nth-last-of-type(1) {
+  margin-right: zero;
+}
+.nav-btn-container {
+  position: absolute;
+  left: 75.38%;
+  right: 17.85%;
+  top: 20.96%;
+  bottom: 97.04%;
+
+  background: #007582;
+}
+.searchbar {
+  position: absolute;
+  height: 25px;
+  width: 500px;
+  left: 39.38%;
+  right: 17.85%;
+  top: 45.96%;
+  bottom: 57.04%;
+}
+.loginbutton {
+  position: absolute;
+  width: 114px;
+  height: 52px;
+  left: 1308px;
+  top: 27px;
+
+  background: #007582;
+  box-shadow: 10px 10px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: absolute;
+  width: 113px;
+  height: 54px;
+  left: 1322px;
+  top: 29px;
+
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #5bbdc8;
+}
+/* Nav 2 */
+.nav-container-2 {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  top: 99px;
+
+  background: #e12e4b;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+.random1 {
+  margin-left: 70px;
+}
+nav ul li {
+  list-style: none;
+}
+.nav-items-2 {
+  text-decoration: none;
+}
+/* nav 3 */
+.drinks {
+  position: absolute;
+  width: 172px;
+  height: 53px;
+  left: 78px;
+  top: 162px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #740012;
+}
+.snacks {
+  position: absolute;
+  width: 172px;
+  height: 53px;
+  left: 253px;
+  top: 162px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #740012;
+}
+.break {
+  position: absolute;
+  width: 172px;
+  height: 53px;
+  left: 428px;
+  top: 162px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #740012;
+}
+.dish {
+  position: absolute;
+  width: 172px;
+  height: 53px;
+  left: 620px;
+  top: 162px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #740012;
+}
+.des {
+  position: absolute;
+  width: 172px;
+  height: 53px;
+  left: 811px;
+  top: 161px;
+  text-decoration: none;
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 34px;
+
+  color: #740012;
+}
+.ROTD {
+  position: absolute;
+  width: 279px;
+  height: 86px;
+  left: 1137px;
+  top: 156px;
+
+  background: #e12e4b;
+  border-radius: 10px;
+  position: absolute;
+  width: 268px;
+  height: 51px;
+  left: 1143px;
+  top: 161px;
+
+  font-family: Georgia;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 34px;
+
+  color: #740012;
+}
+/* End of nav, start pics */
+h1 {
+  position: absolute;
+  width: 1193px;
+  height: 359px;
+  left: 129px;
+  top: 189px;
+
+  font-family: Playball;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 350px;
+  line-height: 437px;
+  text-align: center;
+
+  color: #000000;
+}
+/* Nav ended */
+.bg {
+  position: absolute;
+  width: 1679.5px;
+  height: 1214.97px;
+  left: -48px;
+  top: -264px;
+}
+.BREAK {
+  position: absolute;
+  width: 1193px;
+  height: 359px;
+  left: 120px;
+  top: 289px;
+}
+.img1 {
+  position: absolute;
+  width: 983px;
+  height: 551px;
+  left: 214px;
+  top: 963px;
+
+  background: url(cheese omlete.jpg);
+  box-shadow: 20px 20px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.img2 {
+  position: absolute;
+  width: 538px;
+  height: 657px;
+  left: 129px;
+  top: 1604px;
+
+  background: url(Rava dosa.jpg);
+  box-shadow: 20px 20px 12px 4px rgba(0, 0, 0, 0.25);
+}
+.img3 {
+  position: absolute;
+  width: 619px;
+  height: 536px;
+  left: 723px;
+  top: 1665px;
+
+  background: url(khandvi.jpg);
+  box-shadow: 20px 20px 12px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-container {
+  background-image: url(/background.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: flex;
+}
